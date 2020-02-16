@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            /* Reset default margin */
+        }
+
+        iframe {
+            display: block;
+            /* iframes are inline by default */
+            background: #000;
+            border: none;
+            /* Reset default border */
+            height: 100vh;
+            /* Viewport-relative units */
+            width: 100vw;
+        }
+    </style>
+</head>
+
 <body>
-
-<h2>HTML Iframes</h2>
-<p>You can use the height and width attributes to specify the size of the iframe:</p>
-
-<iframe src="https://app.powerbi.com/view?r=eyJrIjoiODMyMzhiMzQtMGJmZi00NDg2LTkyNjgtODU2NDhjOWFkMDFkIiwidCI6IjJlYzhiMWI2LWMwODYtNGE0OC1iMGFhLTQ4Njc1MTgwZjMyOCIsImMiOjEwfQ%3D%3D" height="600" width="800"></iframe>
-
+    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiODMyMzhiMzQtMGJmZi00NDg2LTkyNjgtODU2NDhjOWFkMDFkIiwidCI6IjJlYzhiMWI2LWMwODYtNGE0OC1iMGFhLTQ4Njc1MTgwZjMyOCIsImMiOjEwfQ%3D%3D" frameborder="0"></iframe>
 </body>
+
 </html>
