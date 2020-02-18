@@ -1,0 +1,44 @@
+.page {
+    background-color: #565656;
+}
+
+#col-dashboards {
+    height: 100vh;
+}
+
+#col-contents .card .card-header {
+    padding: 0.2rem 0.5rem;
+}
+
+#col-contents .card .card-body {
+    height: 50vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 0.5rem;
+}
+
+ul.list-unstyled li h6.post-title {
+    font-size: 0.9rem;
+}
+
+ul.list-unstyled li img.post-img {
+    width: 90px;
+    height: 60px;
+}
+
+ul.list-unstyled li p.post-time {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+ul.list-unstyled li {
+    transition: 0.7s;
+}
+
+ul.list-unstyled li:hover {
+    cursor: pointer;
+}
+
+ul.list-unstyled li:hover h6.post-title {
+    color: rgb(214, 69, 80);
+}
