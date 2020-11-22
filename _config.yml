@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: HoangNH blog                          # the main title
+title: Hoàng Nguyễn                          # the main title
 
-tagline: Code and sharing.  # it will display as the sub-title
+tagline: Code and sharing  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Blog chia sẻ kiến thức lập trình
@@ -27,6 +27,12 @@ github:
 
 twitter:
   username: hoangnh2412            # change to your twitter username
+  card: summary
+
+facebook:
+  app_id: 1059735470837797
+  publisher: 100003322129356
+  admins: 100003322129356
 
 social:
   name: Hoàng Nguyễn                  # it will shows as the copyright owner in Footer
