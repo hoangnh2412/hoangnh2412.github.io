@@ -2,8 +2,8 @@
 title: Hello world
 author: Hoàng Nguyễn
 date: 2020-11-20 18:45:00 +0700
-categories: 
-tags: 
+categories: ['Văn vở']
+tags: ['hello']
 pin: true
 ---
 
